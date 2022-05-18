@@ -13,11 +13,98 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-      <h1 class="govuk-heading-xl">How many balls can you juggle?</h1>
+      <h1 class="govuk-heading-xl">Contents</h1>
 
       <form class="form" action="/juggling-balls-answer" method="post">
+          <p>
+            Economy, language and education
+          </p>
+        <ul class="govuk-list govuk-list--bullet">
 
-        <p>{% from "govuk/components/radios/macro.njk" import govukRadios %}
+          <li>
+            <a href="#">People with high risk jobs</a>
+          </li>
+          <li>
+            <a href="#">People who do not speak English</a>
+          </li>
+          <li>
+            <a href="#">People without a home</a>
+          </li>
+          <li>
+            <a href="#">People who look after children</a>
+          </li>
+          <li>
+            <a href="#">People with low literacy</a>
+          </li>
+          <li>
+            <a href="#">Households below average income</a>
+          </li>
+          <li>
+            <a href="#">Sex workers</a>
+          </li>
+          <li>
+            <a href="#">People who do not have digital skills</a>
+          </li>
+          <li>
+            <a href="#">Displaced people</a>
+          </li>
+          <li>
+            <a href="#">Younger people</a>
+          </li>
+          <li>
+            <a href="#">People who are undocumented in the UK</a>
+          </li>
+          <li>
+            <a href="#">People with limited transport</a>
+          </li>
+          <li>
+            <a href="#">Deprivation (people without any resources)</a>
+          </li>
+        </ul>
+        <p>
+          At risk communities
+        </p>
+      <ul class="govuk-list govuk-list--bullet">
+
+        <li>
+          <a href="#">Black, Black British, Caribbean or African people</a>
+        </li>
+        <li>
+          <a href="#">Older people</a>
+        </li>
+        <li>
+          <a href="#">People in religious communities</a>
+        </li>
+        <li>
+          <a href="#">People in traveller communities</a>
+        </li>
+        <li>
+          <a href="#">People in supported living</a>
+        </li>
+        <li>
+          <a href="#">The LGBTQI+ community</a>
+        </li>
+        <li>
+          <a href="#">Indian, Bangladeshi and Pakistani communities</a>
+        </li>
+        <li>
+          <a href="#">Victims of domestic violence</a>
+        </li>
+        <li>
+          <a href="#">People who take drugs and alcohol</a>
+        </li>
+        <li>
+          <a href="#">People in prison</a>
+        </li>
+        <li>
+          <a href="#">Documented migrant workers</a>
+        </li>
+        <li>
+          <a href="#">People living in rural areas</a>
+        </li>
+      </ul>
+
+        <!-- <p>{% from "govuk/components/radios/macro.njk" import govukRadios %}
 
           {{ govukRadios({
             idPrefix: "how-many-balls",
@@ -46,7 +133,7 @@
                 checked: checked("how-many-balls", "None - I cannot juggle")
             }
             ]
-          }) }}</p>
+          }) }}</p> -->
 
         <p>[See <a href="https://design-system.service.gov.uk">the GOV.UK Design System</a> for examples]</p>
 
